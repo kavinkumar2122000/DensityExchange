@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    background-color: #f0f0f0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    border-bottom:  1px solid rgba(255, 255, 255,.1);
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.email {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #888;
+    margin-left: 10px;
+}
+
+.search-bar input {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+}
+
+.navbar span{
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 50px;
+    background-color: linear-gradient(90deg,transparent, #fff);
+}
+
+.logo{
+   text-transform: lowercase;
+   font-size: x-large;
+   cursor: pointer;
+   font-style: italic;
+   font-weight: 300;
+}
+
+.email {
+    margin-top: 5px;
+    font-size: 14px;
+    color:#888;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    gap: 5rem;
+    text-transform: uppercase;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+}
+
+.btn {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.video-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 200px 20px; /* Adjust the margin-top value as needed */
+}
+
+.video-section video {
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+}
+
+.img-container{
+    text-align: center;
+    margin: 20px;
+    max-width: 100%;
+}
+
+.text-section {
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    margin-top: 10px; /* Adjust the margin as needed */
+    gap: 10px;
+}
+
+.feedback-button,
+.share-button,
+.details-button {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.feedback-button {
+    background-color: #ffcc00;
+}
+
+.share-button {
+    background-color: #00aaff;
+    color: white;
+}
+
+.details-button {
+    background-color: #ff6666;
+    color: white;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.profile-info img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.follow-button,
+.hire-button {
+    padding: 5px 15px;
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.follow-button {
+    background-color: #00aaff;
+}
+
+.hire-button {
+    background-color: #ff6666;
+}
+
